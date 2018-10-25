@@ -42,7 +42,4 @@ gen/
 .project
 
 .DS_Store
-.idea/encodings.xml
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/workspace.xml
+.idea/
