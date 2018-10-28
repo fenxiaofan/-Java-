@@ -101,6 +101,10 @@ Java中实现深克隆，可以通过**序列化**(Serialization)等方式实现
 主要角色：Facade(外观角色)、SubSystem(子系统角色)
 
 # 第十三章 建造者模式
+将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
+主要角色：Builder(抽象创建者)、ConcreteBuilder(具体创建者)、Product(产品角色)、Director(指挥者).
+
+Director在建造者模式中扮演着重要的作用，Director指导建造者如何构建产品，它按照一定的次序调用Builder的buildPartX()方法。
 
 
 
